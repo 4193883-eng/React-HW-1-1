@@ -1,0 +1,23 @@
+.table {
+    font-family: sans-serif;
+    color: whitesmoke;
+    border-collapse: collapse;
+    border: 1px solid whitesmoke;
+}
+
+.table thead{
+    background: cornflowerblue;
+}
+
+.table th, td{
+    padding: 8px 20px;
+}
+
+.table tbody tr td{
+    color: dimgray;
+}
+
+.table tbody tr:nth-child(2n){
+    background: darkseagreen;
+    color: aliceblue;
+}
