@@ -11,6 +11,7 @@
 
 .table th, td{
     padding: 8px 20px;
+    color: whitesmoke;
 }
 
 .table tbody tr td{
