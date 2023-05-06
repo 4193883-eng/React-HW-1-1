@@ -5,7 +5,7 @@ export function FriendList({ friends }) {
         <ul>
             {friends.map((friend) => {
                 return (
-                    <FriendListItem avatar={friend.avatar} id={friend.id} isOnline={friend.isOnline} name={friend.name}/>
+                    <FriendListItem avatar={friend.avatar} key={friend.id} isOnline={friend.isOnline} name={friend.name}/>
                 )
             })}
         </ul>

@@ -1,4 +1,5 @@
 import styles from './TransactionHistory.module.css';
+
 const TransactionHistory = ({items}) => {
     return (<table className={styles.table}>
         <thead>
